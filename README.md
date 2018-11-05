@@ -1,25 +1,31 @@
-# README
+# Hi, welcome to my new app : Private Club 📰
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### https://dashboard.heroku.com/apps/private-club-omegad
 
-Things you may want to cover:
+## On this app you can :
+### - Create a profile 
+### - Edit, show and delete your profile
+### You must be log to access the list
 
-* Ruby version
+## You can't edit, delete others profiles
 
-* System dependencies
+## 💎 Gems used :
 
-* Configuration
+### - Rails ~>'5.2.1'
+### - CanCanCan
 
-* Database creation
+## If you clone this repo
+### - Run 
 
-* Database initialization
+```sh
+$ bundle install
+$ rails db:migrate
+```
+## :european_post_office: The Strasbourg Crew 💪
+@zOmegad, @BrokenPirate, @mxrch, @Runefire32 and @OwwllMan
 
-* How to run the test suite
+<hr>
 
-* Services (job queues, cache servers, search engines, etc.)
+***Made for TheHackingProject bootcamp.***
 
-* Deployment instructions
-
-* ...
-# PrivateClub
+***> www.thehackingproject.org***
