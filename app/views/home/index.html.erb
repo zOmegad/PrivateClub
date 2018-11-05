@@ -14,3 +14,11 @@
 <h1>Welcome to Strasbourg Club</h1>
 <p>You must be logged in to see content</p>
 </div>
+<br>
+
+<% if current_user %>
+<p style="text-align: center;">
+ <%= link_to "Cluber list", users_url, class: "btn btn-success", style:"color: black; margin: 0 auto;"%>
+ <% end %>
+ </p>
+<br>
