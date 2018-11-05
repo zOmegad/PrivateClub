@@ -1,4 +1,4 @@
-# Hi, welcome to my new app : Private Club
+# Hi, welcome to my new app : Private Club 📰
 
 ### https://dashboard.heroku.com/apps/private-club-omegad
 
@@ -9,11 +9,23 @@
 
 ## You can't edit, delete others profiles
 
-## Gems used :
+## 💎 Gems used :
 
 ### - Rails ~>'5.2.1'
 ### - CanCanCan
 
 ## If you clone this repo
-### - Make a bundle install
-### - Run rails db:migrate
+### - Run 
+
+```sh
+$ bundle install
+$ rails db:migrate
+```
+## :european_post_office: The Strasbourg Crew 💪
+@zOmegad, @BrokenPirate, @mxrch, @Runefire32 and @OwwllMan
+
+<hr>
+
+***Made for TheHackingProject bootcamp.***
+
+***> www.thehackingproject.org***
