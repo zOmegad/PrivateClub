@@ -1,0 +1,16 @@
+<br>
+<div class="card" style="color: white; margin: 0 auto; width: 50%; text-align: center; background-color: orange;">
+	<br>
+<% if current_user %>
+  Logged in as <%= current_user.email %>.
+  <%= link_to "Log Out", session_url(current_user), method: :delete, class: "bg-light btn btn-treehouse", style: "color: black; margin: 0 auto;"%>
+<% else %>
+  <%= link_to "Sign Up", new_user_url, class: "bg-light btn btn-treehouse", style: "color: black; margin: 0 auto;"%> 
+  <br>
+  <%= link_to "Log In", new_session_url, class: "bg-light btn btn-treehouse", style: "color: black; margin: 0 auto;"%>
+  <br>
+<% end %>
+<p id=”notice”><%= notice %></p>
+<h1>Welcome to Strasbourg Club</h1>
+<p>You must be logged in to see content</p>
+</div>
